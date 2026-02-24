@@ -1,0 +1,1 @@
+https://github.com/stef-k/MauiControlsExtras/issues/232
