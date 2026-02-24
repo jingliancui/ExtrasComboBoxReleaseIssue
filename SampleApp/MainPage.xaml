@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:extras="clr-namespace:MauiControlsExtras.Controls;assembly=MauiControlsExtras"
+             xmlns:local="clr-namespace:SampleApp"
+             x:DataType="local:MainPageViewModel"
+             x:Class="SampleApp.MainPage">
+
+    <ScrollView>
+        <extras:ComboBox
+            IsSearchVisible="False"
+            PopupMode="True"
+            Placeholder="tttttt"
+            ItemsSource="{Binding CountryList}"
+            SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
+            DisplayMemberPath="Name">
+            
+        </extras:ComboBox>
+    </ScrollView>
+
+</ContentPage>
