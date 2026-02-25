@@ -13,7 +13,7 @@ public class MainPageViewModel
             new CountryModel{Name="The UK"},
             new CountryModel{Name="The USA"},
         };
-        SelectedCountry=CountryList[0];
+        SelectedCountry=CountryList[1];
     }
     public List<CountryModel> CountryList { get; set; }
 

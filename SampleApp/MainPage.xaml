@@ -8,12 +8,12 @@
 
     <ScrollView>
         <extras:ComboBox
+            x:Name="countryComboBox"
             IsSearchVisible="False"
             PopupMode="True"
-            Placeholder="tttttt"
+            Placeholder="Select Country!"
             ItemsSource="{Binding CountryList}"
-            SelectedItem="{Binding SelectedCountry, Mode=TwoWay}"
-            DisplayMemberPath="Name">
+            SelectedItem="{Binding SelectedCountry, Mode=TwoWay}">
             
         </extras:ComboBox>
     </ScrollView>
